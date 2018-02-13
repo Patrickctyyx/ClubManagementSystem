@@ -32,7 +32,6 @@ Page({
         'content-type': 'application/json'
       },
       success:function(res){
-        console.log('报名成功：', res.data)
         if (res.data.status == 'success') {
           wx.showToast({
             title: '报名成功',
