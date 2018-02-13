@@ -1,0 +1,41 @@
+<view class="page">
+  <view class="page__bd">
+    <form bindsubmit="postUserinfo">
+    <view class="section">
+      <view class="section__title">姓名：</view>
+      <input name="name" maxlength="32" value="{{uname}}"/>
+    </view>
+    <view class="section">
+      <view class="section__title">年级：</view>
+      <input name="grade" maxlength="6" value="{{ugrade}}"/>
+    </view>
+    <view class="section">
+      <view class="section__title">学院：</view>
+      <input name="college" maxlength="32" value="{{ucollege}}"/>
+    </view>
+     <view class="section">
+      <view class="section__title">专业：</view>
+      <input name="major" maxlength="32" value="{{umajor}}"/>
+    </view>
+     <view class="section">
+      <view class="section__title">联系电话：</view>
+      <input name="phone" type="number" maxlength="11" value="{{uphone}}"/>
+    </view>
+     <view class="section">
+      <view class="section__title">QQ：</view>
+      <input name="qq" type="number" maxlength="11" value="{{uqq}}"/>
+    </view>
+     <view class="section">
+      <view class="section__title">微信号：</view>
+      <input name="wechat" maxlength="11" value="{{uwechat}}"/>
+    </view>
+     <view class="section">
+      <view class="section__title">邮箱：</view>
+      <input name="email" value="{{uemail}}"/>
+    </view>
+    <view class="btttn-area">
+    <button form-type='submit' style='color:#ffffff;background-color:#3d3b4f;'>确认修改</button>
+    </view>
+    </form>
+  </view>
+</view>

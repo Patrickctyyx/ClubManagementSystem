@@ -1,0 +1,43 @@
+page{
+  background-color:#f8f8f8;
+  margin-left:auto;
+}
+
+.formcss{
+  background-color:rgba(0,0,0,0);
+  opacity:1;
+  margin-left:auto;
+  margin-top:80rpx;
+}
+
+.user_input{
+width:600rpx;
+margin-top:23.4375rpx;
+height:73.75rpx;
+opacity:1;
+margin-left:40px;
+margin-right:auto;
+font-size: 110%;
+}
+
+.user_textarea{
+width:600rpx;
+margin-top:42rpx;
+opacity:1;
+margin-left:40px;
+margin-right:auto;
+font-size: 115%;
+padding-bottom: 12rpx;
+}
+
+.btn-area{
+  background-color:brown;
+  position:absolute;
+  bottom: 30px;
+  line-height:93.75rpx;
+  width:600rpx;
+  border-radius:9.375%;
+  font-size:32.8125rpx;
+  opacity: 1;
+  margin-left: 75rpx;
+}

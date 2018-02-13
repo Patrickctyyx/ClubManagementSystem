@@ -1,0 +1,37 @@
+ <view class="content">
+    <view class="book-content">
+        <view>
+
+            <view class="book-list">
+
+                <view class="book-image">
+                    <image src="{{uimage_url}}" mode="aspectFit"></image>
+                </view>
+
+                <view class="book-info">
+                    <view class="book-info-style">
+                        <view>社团名:{{uname}}</view>
+                        <view>社团类型:{{utype}}</view>
+                    </view>
+                </view>
+
+            </view>
+
+        </view>
+    </view>
+    <view class="space-line-30"></view>
+    <scroll-view scroll-y="true" class="scroll-content" style="height:{{windowHeight*0.66}}px">
+
+        <view class="book-intro">
+            <text class="book-title">社团简介</text>
+            <text class="book-msg">{{uintroduction}}</text>
+        </view>
+
+        <view class="btn-area" >
+            <button type="button" style='color:#ffffff;background-color:#3d3b4f;' bindtap='gotoSignUpPage'>报名</button>
+        </view>
+
+
+    </scroll-view>
+
+</view> 

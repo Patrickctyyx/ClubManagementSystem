@@ -1,0 +1,28 @@
+<view class="content" scroll-y="true">
+  <view class="search-bar">
+    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+    <input placeholder="请输入社团名" bindchange="inputChange"/>
+    <button type="primary" bindtap="queryBooks">查询</button>
+  </view>
+  <view class="header-bg"></view>
+ 
+  <view class="book-content">
+    <view wx:for="{{lit}}" wx:key="" bindtap="goToDetailPage" id="{{item.id}}"> 
+      <view class="book-list">
+         <view class="book-image">
+          <image src="{{item.image_url}}" mode="aspectFit"></image>
+         </view>
+        <view class="book-info">
+          <view class="book-info-style">
+            <view>社团:{{item.name}}</view>
+            <view>简介:{{item.introduction}}</view>
+            <text class="level-lable1">{{item.type}}</text>
+          </view>
+      
+      </view>
+
+      <view class="line"></view>
+    </view>
+  </view>
+</view>
+</view>

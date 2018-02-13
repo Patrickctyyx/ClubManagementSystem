@@ -1,0 +1,20 @@
+<view wx:if="{{warn}}">暂时没加入社团</view>
+  <view class="book-content">
+    <view wx:for="{{lits}}" wx:key="{{item.id}}" bindtap="goToActivityPage" id="{{item.id}}"> 
+
+      <view class="book-list">
+         <view class="book-image">
+          <image src="{{item.image_url}}" mode="aspectFit"></image>
+         </view>
+        <view class="book-info">
+          <view class="book-info-style">
+            <view>社团:{{item.name}}</view>
+            <view>简介:{{item.introduction}}</view>
+            <text class="level-lable1">{{item.type}}</text>
+          </view>
+      <view class="line"></view>
+    </view>  
+    
+  </view>
+</view>
+</view>

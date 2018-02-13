@@ -1,0 +1,14 @@
+<!--pages/bindinfo/bindinfo.wxml-->
+
+<view class="formcss">
+<form bindsubmit="bindAccount">             
+    <input hidden='true' maxlength="-1" name="token" value="{{token}}"/>
+    <view class='user_warn'>至少选择一项绑定</view>
+    <input class = "user_input" name="phone" placeholder='绑定手机'class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+    <input class = "user_input" name="email" placeholder='绑定邮箱' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+  <view class="btn-area" >
+    <button form-type='submit' style='color:#ffffff;background-color:#3d3b4f;'>绑定账户</button>
+  </view>
+</form>
+</view>
+

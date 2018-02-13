@@ -1,0 +1,17 @@
+<!--pages/meinfo/meinfo.wxml-->
+<view class="formcss">
+<form bindsubmit="PostUserinfo">
+    <input class = "user_input" name="club_name" value='{{uclubname}}'class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+    <input class = "user_input" name="name" placeholder='姓名'class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+    <input class = "user_input" name="grade" placeholder='年级' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+    <input class = "user_input" name="college" placeholder='学院' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+    <input class = "user_input" name="department" placeholder='系' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+     <input class = "user_input" name="major" placeholder='专业' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+      <input class = "user_input" name="phone" placeholder='手机号码' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+      <input class = "user_input" name="email" placeholder='联系邮箱' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+    <textarea class = "user_textarea" name="introduction" placeholder='个人介绍' style='border-bottom:1.7px solid #008B8B;' auto-height="true"/>
+  <view class="btn-area" bindtap='goToIndexpage'>
+    <button form-type='submit' style='color:#ffffff;background-color:#3d3b4f;'>报名</button>
+  </view>
+</form>
+</view>
