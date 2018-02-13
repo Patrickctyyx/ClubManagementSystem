@@ -1,7 +1,5 @@
-<!--pages/meinfo/meinfo.wxml-->
 <view class="formcss">
-<form bindsubmit="PostUserinfo">
-    <input class = "user_input" name="club_name" value='{{uclubname}}'class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
+<form bindsubmit="postUserinfo">
     <input class = "user_input" name="name" placeholder='姓名'class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
     <input class = "user_input" name="grade" placeholder='年级' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>
     <input class = "user_input" name="college" placeholder='学院' class="user_input" style='border-bottom:1.7px solid #008B8B;'/>

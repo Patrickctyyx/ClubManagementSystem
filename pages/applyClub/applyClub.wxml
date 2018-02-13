@@ -1,6 +1,6 @@
 
   <view class="book-content">
-    <view wx:for="{{lits}}" wx:key="" bindtap="goToActivityPage" id="{{item.id}}"> 
+    <view wx:for="{{lits}}" wx:key="{{item.id}}" id="{{item.id}}"> 
 
       <view class="book-list">
          <view class="book-image">
@@ -9,7 +9,6 @@
         <view class="book-info">
           <view class="book-info-style">
             <view>社团:{{item.name}}</view>
-            <view>简介:{{item.introduction}}</view>
             <view wx:if="{{item.status === 'pending'}}">结果:处理中</view>
             <view wx:elif="{{item.status === 'accepted'}}">结果:通过</view>
             <view wx:else>结果:未通过</view>

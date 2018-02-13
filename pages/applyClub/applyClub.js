@@ -3,16 +3,6 @@ Page({
   data: {
   },
 
-  //查看社团详情
-  goToActivityPage: function (e) {
-    var uid = e.currentTarget.id;
-    wx.navigateTo({
-      url: '../activity/activity?id=' + uid
-    })
-    //console.log(e.currentTarget.name)
-  },
-
-  
   onLoad: function (options) {
     console.log('onLoad');
     var that = this

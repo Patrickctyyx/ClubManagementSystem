@@ -58,11 +58,11 @@ Page({
             icon: 'success',
             duration: 2000
           })
+          // wx.switchTab({
+          //   url: '../index/index'
+          // })
         }
       }
-    })
-    wx.switchTab({
-      url: '../index/index'
     })
   }
 })

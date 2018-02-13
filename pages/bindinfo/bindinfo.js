@@ -3,11 +3,7 @@ var app = getApp();
 var phone,email,token;
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-
   },
 
   onLoad: function (options) {
@@ -50,13 +46,13 @@ Page({
               } else if (res.cancel) {
                 console.log('用户点击取消')
               }
+              // wx.switchTab({
+              //   url: '../index/index'
+              // })
             }
           })
         }
       }
-    }),
-    wx.switchTab({
-      url: '../index/index'
     })
   }
 })
