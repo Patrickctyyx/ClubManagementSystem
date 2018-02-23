@@ -1,26 +1,18 @@
-
-
 <view class="content" scroll-y="true">
  
   <view class="book-content">
     <view wx:for="{{lit}}" wx:key="" bindtap="" id="{{item.id}}"> 
       <view class="book-list">
-         <!-- <view class="book-image">
-          <image src="{{item.image_url}}" mode="aspectFit"></image>
-         </view> -->
         <view class="book-info">
           <view class="book-info-style">
             <view>活动主题:{{item.theme}}</view>
             <view>活动内容:{{item.content}}</view>
             <view>负责人:{{item.creator_id}}</view>
-            <view>发布日期:{{item.start_time}}</view>
-            <view>截止日期:{{item.last_modified}}</view>
+            <view>上次修改于:{{item.last_modified}}</view>
+            <view>开始日期:{{item.start_time}}</view>
           </view>  
       </view>
-
       <view class="line"></view>
-
-
     </view>
   </view>
 </view>

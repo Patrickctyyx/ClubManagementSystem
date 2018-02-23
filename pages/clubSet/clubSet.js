@@ -1,4 +1,5 @@
 // pages/clubSet/clubSet.js
+// 管理社团页面
 Page({
 
   /**
